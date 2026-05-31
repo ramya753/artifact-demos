@@ -9,8 +9,8 @@ jobs:
      steps:
        - name: create file
          run: |
-           mkdir temp
-           echo "alpha" > temp/alpha.html
+            mkdir temp
+            echo "alpha" > temp/alpha.html
 
        - name: upload artifact
          uses: action/upload-artifact@4
